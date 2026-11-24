@@ -3,7 +3,7 @@ fn add(a: i32, b: i32) -> i32 {
 }
 
 fn main() {
-    println!("Hello from Jenkins CI! 2 + 3 = {}", add(2, 3));
+    println!("Hello from Jenkins CI v2! 2 + 3 = {}", add(2, 3));
 }
 
 #[cfg(test)]
